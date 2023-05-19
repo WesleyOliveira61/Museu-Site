@@ -9,7 +9,79 @@
 </head>
 <body>
     
-    <h1>Fontes Customizadas</h1>
+    <div id="container"><!--Início container-->
+        <header><!--Início cabeçalho-->
+            <div id="logo">
+                <h1><a href="http://">Museu Nacional</a></h1>
+            </div>
+            <nav><!--Início Nav-->
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Exposiçoes</a></li>
+                    <li><a href="">Pesquisa</a></li>
+                    <li><a href="">Acervo</a></li>
+                    <li><a href="">Vídeos</a></li>
+                    <li><a href="">Fotos</a></li>
+                    <li><a href="">Contatos</a></li>
+                </ul>
+            </nav><!--Fim Nav-->
+              
+        </header><!--Fim cabeçalho-->
+        <div id="principal"><!--Início principal-->
+            <div id="conteudo">
+                <section id="capa">
+                    <img src="imagens/museu.png" alt="">
+                </section>
+            </div>
+            <aside>
+                <section id="depoimento">
+                    <img src="imagens/depoimento.png" alt="">
+                </section>
+                <section id="visita">
+                    <h4>Faça uma visita</h4>
+                    <form action="">
+                        <fieldset>
+                            <legend>Selecione uma data</legend>
+
+                            <label for="data">Data</label>
+                            <input class="campo" type="text" id="data" value="dd/mm/aaa">
+                            <label for="qtd">Qtd pessoas</label>
+                            <input style="width: 30px;" class="campo" type="text" id="qtd" value="1">
+
+                        </fieldset>
+                        <input class="botao"  type="submit" value="Verificar disponibilidade.">
+                    </form>
+
+                </section>
+
+                <section id="galeria">
+                    <h4>Galeria de fotos</h4>
+                    <a href="">
+                        <img src="imagens/imagem1.jpg" alt="" height="93px" width="93px">
+                    </a>
+
+                    <a href="">
+                        <img src="imagens/imagem2.jpg" alt="" height="93px" width="93px">
+                    </a>
+
+                    <a href="">
+                        <img src="imagens/imagem3.jpg" alt="" height="93px" width="93px">
+                    </a>
+
+                    <a href="">
+                        <img src="imagens/imagem4.jpg" alt="" height="93px" width="93px">
+                    </a>
+
+                    
+
+
+                </section>
+
+            </aside>
+        </div><!--Fim Principal-->
+
+
+    </div><!--Fim container-->
 
 </body>
 </html>
