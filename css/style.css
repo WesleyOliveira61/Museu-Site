@@ -1,0 +1,10 @@
+@font-face {
+    font-family:"eyeful" ;
+    src: url("../fonts/eyeful/eyefulDEMO.woff");
+}
+
+h1 {
+    font-size: 6em;
+    font-family:"eyeful";
+    text-align: center;
+}
